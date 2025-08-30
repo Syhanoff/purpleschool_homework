@@ -1,0 +1,35 @@
+body {
+  background-color: #f39494;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+div {
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 120%;
+}
+
+input {
+  background-color: #f5f5f5;
+  font-size: 16px;
+  color: #999999;
+  font-style: italic;
+}
+
+label {
+  font-size: 14px;
+}
+
+button {
+  background-color: #089fe0;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 100%;
+  font-weight: 400;
+}
