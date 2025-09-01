@@ -1,0 +1,43 @@
+body {
+  background: linear-gradient(180deg, rgba(55, 65, 81, 1), rgba(17, 24, 39, 1) 100%);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #fff;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 38px;
+}
+
+nav a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 18px;
+}
+
+input[type="search"] {
+  background-color: rgba(31, 41, 55, 0.6);
+  color: #fff;
+}
+
+.accentText {
+  opacity: 60%;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.autorProfession {
+  font-size: 14px;
+}
+
+.mainImage + p {
+  font-size: 20px;
+  line-height: 32px;
+}
