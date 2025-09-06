@@ -5,11 +5,14 @@ body {
   font-weight: 400;
   line-height: 30px;
   color: #fff;
+  padding: 0 180px;
 }
 
 h1 {
   font-size: 24px;
   line-height: 38px;
+  text-align: center;
+  font-weight: 400;
 }
 
 nav a {
@@ -25,6 +28,13 @@ nav a {
 input[type="search"] {
   background-color: rgba(31, 41, 55, 0.6);
   color: #fff;
+  padding: 9px 129px 12px 49px;
+  border-radius: 100px;
+  border-style: none;
+}
+
+nav input::before {
+  content: url(../image/search.svg);
 }
 
 .accentText {
@@ -40,4 +50,37 @@ input[type="search"] {
 .mainImage + p {
   font-size: 20px;
   line-height: 32px;
+}
+
+header {
+  padding: 70px 0;
+}
+
+footer {
+  padding: 100px 0 77px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+article .label {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.mainHeading {
+  margin-top: 14px;
+}
+
+.autorBox {
+  margin-top: 30px;
+}
+
+.mainImage {
+  margin: 29px 0 69px;
+}
+
+footer p {
+  text-align: center;
 }
