@@ -9,12 +9,11 @@ body {
   margin: 0 auto;
 }
 
-h1, p {
+h1,
+p {
   margin: 0;
   padding: 0;
 }
-
-
 
 h1 {
   font-size: 24px;
@@ -46,6 +45,11 @@ nav {
   margin-right: 11px;
 }
 
+.sershBox {
+  margin-left: auto;
+  position: relative;
+}
+
 input[type="search"] {
   background-color: rgba(31, 41, 55, 0.6);
   color: #fff;
@@ -54,22 +58,17 @@ input[type="search"] {
   border-style: none;
   opacity: 60%;
   font-size: 16px;
-  display: block;
   font-weight: 400;
-  margin-left: auto;
+  position: relative;
+
+line-height: 100%;
 }
 
-/* .search::before {
-  content: " 7 ";
-  background: url(../image/search.svg) no-repeat;
-  display: block;
-  width: 14px;
-  height: 14px;
+.sershIcon {
   position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 3;
-} */
+  top: 14px;
+  left: 18px;
+}
 
 .autorProfession {
   font-size: 14px;
@@ -88,7 +87,7 @@ header {
 
 footer {
   padding: 100px 0 77px;
-    opacity: 60%;
+  opacity: 60%;
 }
 
 nav ul {
@@ -126,7 +125,7 @@ article {
 }
 
 .autorProfession {
-    opacity: 60%;
+  opacity: 60%;
 }
 
 .mainImage {
