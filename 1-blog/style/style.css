@@ -5,7 +5,14 @@ body {
   font-weight: 400;
   line-height: 30px;
   color: #fff;
-  padding: 0 180px;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+h1,
+p {
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -21,26 +28,46 @@ nav a {
   text-decoration: none;
 }
 
+nav {
+  display: flex;
+}
+
 .logo {
-  font-size: 18px;
+  display: flex;
+  align-items: center;
+  margin-right: 77px;
+}
+
+.logo a {
+  box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.15);
+  display: block;
+  height: 35px;
+  margin-right: 11px;
+}
+
+.sershBox {
+  margin-left: auto;
+  position: relative;
 }
 
 input[type="search"] {
   background-color: rgba(31, 41, 55, 0.6);
   color: #fff;
-  padding: 9px 129px 12px 49px;
+  padding: 9px 0 12px 49px;
   border-radius: 100px;
   border-style: none;
-}
-
-nav input::before {
-  content: url(../image/search.svg);
-}
-
-.accentText {
   opacity: 60%;
   font-size: 16px;
   font-weight: 400;
+  position: relative;
+
+line-height: 100%;
+}
+
+.sershIcon {
+  position: absolute;
+  top: 14px;
+  left: 18px;
 }
 
 .autorProfession {
@@ -53,20 +80,29 @@ nav input::before {
 }
 
 header {
-  padding: 70px 0;
+  margin: 70px 0;
+  display: flex;
+  align-items: center;
 }
 
 footer {
   padding: 100px 0 77px;
+  opacity: 60%;
 }
 
-nav ul li {
+nav ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex: 1 0 300px;
+  justify-content: space-between;
 }
 
-article .label {
-  text-align: center;
-  margin: 0 auto;
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .mainHeading {
@@ -75,6 +111,21 @@ article .label {
 
 .autorBox {
   margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 150%;
+}
+
+.autorImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: url(../image/avatar.png) no-repeat 0 0 / cover;
+  margin-right: 16px;
+}
+
+.autorProfession {
+  opacity: 60%;
 }
 
 .mainImage {
@@ -83,4 +134,8 @@ article .label {
 
 footer p {
   text-align: center;
+}
+
+.textBlock {
+  width: 708px;
 }

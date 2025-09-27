@@ -10,19 +10,22 @@
 
 <body>
   <section>
-    <div>
+    <div class="mainForm">
       <h1>Регистрация</h1>
       <p>Уже есть аккаунт? <a href="#">Войти</a></p>
       <form action="#">
-        <input type="text" placeholder="Название компании" name="company">
+        <input type="text" placeholder="Название компании" name="company" autocomplete="off">
         <fieldset>
           <input type="text" placeholder="Имя" name="name">
           <input type="text" placeholder="Фамилия" name="soname">
         </fieldset>
         <input type="email" name="email" placeholder="E-mail">
         <button>Зарегистрироваться</button>
-        <input type="checkbox" name="agree" id="agree">
-        <label for="agree">Я прочитал и принимаю <a href="#">Условия использования</a></label>
+        <div class="agree">
+          <input type="checkbox" name="agree" id="agree">
+          <label for="agree">Я прочитал и принимаю <a href="#">Условия использования</a></label>
+        </div>
+
       </form>
     </div>
   </section>
